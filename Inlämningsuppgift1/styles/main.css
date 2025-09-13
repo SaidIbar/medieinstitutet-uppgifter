@@ -14,11 +14,29 @@
         
         /* Header styles */
         header {
-            background-color: #1a365d;
+            background-color: white;
             color: white;
             padding: 1rem;
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
             align-items: center;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .logo-placeholder {
+            width: 60px;
+            height: 60px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #1a365d;
+            font-weight: bold;
         }
