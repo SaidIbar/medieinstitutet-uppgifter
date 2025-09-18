@@ -9,8 +9,8 @@
 <body>
      <header>
         <div class="logo-container">
-            <div class="logo-placeholder"><LOGO><img src="images/pngegg.png" width="60px" height="60px"></LOGO></div>
-            <h1>Tidningen</h1>
+            <div class="logo-placeholder"><LOGO><img src="images/pngegg.png"></LOGO></div>
+            <h1 id="mainTitle">Stockholm's Times</h1>
         </div>
         <form id="searchArea" name="searchArea">
             <input type="text" id="search" name="search" placeholder="Sök efter nyheter...">
@@ -18,31 +18,59 @@
         </form>
     </header>
     <hr>
+       <nav>
         <ul>
             <li><a href="#">Hem</a></li>    
             <li><a href="#">Senaste Nytt</a></li>
             <li><a href="#">Arkiv</a></li>
             <li><a href="#">Kontakta oss</a></li>
         </ul>
+    </nav>
     <hr>
-    <div>
-        <div><h2>Huvud Artikeln title</h2></div>
-        <div>
-            <a target="_blank" href="#">
-                <img src="#" alt="huvudArtikeln">
+    <div class="articles-container">
+        <div  class="articles-container">
+            <h2>Byggjätten: ”Trafikverkets anklagelser om Västlänken är grundlösa och beskyllningar falska”</h2>
+             <a target="_blank" href="#">
+                <img src="images/artikelimage1.jpg" class="artikelimage" alt="huvudArtikeln">
             </a>
+             <article>
+                Trafikverkets anklagelser är ”grundlösa” och ”innehåller en lång rad osakliga och insinuanta påståenden” som antingen bygger på okunskap ”eller en medveten vilja” att dölja egna brister.
+
+                Det skriver det NCC-ledda konsortiet som bygger delar av Västlänken i sitt skriftliga svar om Trafikverkets kritik och miljardkrav.
+            </article>
+            <div class="readMore">
+                <a href="#">Läs mer</a>
+            </div>
         </div>
-        <div>
-            <p>
-                Massa text Massa text Massa text Massa text Massa text Massa text
-                Massa text Massa text Massa text Massa textMassa text Massa text Massa text
-                 Massa text Massa text Massa text Massa text Massa text Massa text
-                Massa text Massa text Massa text Massa textMassa text Massa text Massa text
-                 Massa text Massa text Massa text Massa text Massa text Massa text
-                Massa text Massa text Massa text Massa textMassa text Massa text Massa text
-            </p>
-            <a href="#" id="readMore" name="readMore">Läs mer</a>
+        <div  class="articles-container">
+            <h2><span class="h2red">Emma Bouvin:</span> ”Liv går före lag” säger Netanyahu och sätter Gaza i brand”</h2>
+             <a target="_blank" href="#">
+                <img src="images/artikelimage2.jpg"  class="artikelimage" alt="huvudArtikeln">
+            </a>
+             <article>
+                1 min 4 sek Videon är 1 min 4 sek lång.En oberoende utredning pekar på att Israel begår folkbord i Gaza, samtidigt som markinvasionen inleds.
+            </article>
+            <div class="readMore">
+                <a href="#">Läs mer</a>
+            </div>
         </div>
+        <div  class="articles-container">
+            <h2>Checklista: Tio tips inför bostadsköpet</h2>
+             <a target="_blank" href="#">
+                <img src="images/artikelimage3.jpg"  class="artikelimage" alt="huvudArtikeln">
+            </a>
+             <article>
+               En hängmatta mellan två äppelträd, morgonkaffet på altanen eller favoritkaféet runt hörnet från portuppgången. 
+               Många drömmer om nästa bostadsköp, men innan man flyttar in finns det en hel del att tänka på 
+               och några fällor att undvika. Här är expertens bästa tips för en tryggare bostadsaffär.
+            </article>
+            <div class="readMore">
+                <a href="#">Läs mer</a>
+            </div>
+        </div>
+    </div>
+    <div>
+        
         <div>
             <h2>Tips redactionen</h2>
             <form id="feedBack" name="feedBack">
@@ -61,44 +89,8 @@
         </div>
         <div><a href="#">GDPR och villkor</a></div>
     </div>
-     <div>
-        <div><h2>Andra Artikeln title</h2></div>
-        <div>
-            <a target="_blank" href="#">
-                <img src="#" alt="andraArtikeln">
-            </a>
-        </div>
-        <div>
-            <p>
-                Massa text Massa text Massa text Massa text Massa text Massa text
-                Massa text Massa text Massa text Massa textMassa text Massa text Massa text
-                 Massa text Massa text Massa text Massa text Massa text Massa text
-                Massa text Massa text Massa text Massa textMassa text Massa text Massa text
-                 Massa text Massa text Massa text Massa text Massa text Massa text
-                Massa text Massa text Massa text Massa textMassa text Massa text Massa text
-            </p>
-             <a href="#" id="readMore" name="readMore">Läs mer</a>
-        </div>
-    </div>
-     <div>
-        <div><h2>Tredje Artikeln title</h2></div>
-        <div>
-            <a target="_blank" href="#">
-                <img src="#" alt="Tredjeartikeln">
-            </a>
-        </div>
-        <div>
-            <p>
-                Massa text Massa text Massa text Massa text Massa text Massa text
-                Massa text Massa text Massa text Massa textMassa text Massa text Massa text
-                 Massa text Massa text Massa text Massa text Massa text Massa text
-                Massa text Massa text Massa text Massa textMassa text Massa text Massa text
-                 Massa text Massa text Massa text Massa text Massa text Massa text
-                Massa text Massa text Massa text Massa textMassa text Massa text Massa text
-            </p>
-             <a href="#" id="readMore" name="readMore">Läs mer</a>
-        </div>
-    </div>
+     
+    
     <hr>
     <footer>
         <label>Företags namn</label><br>
