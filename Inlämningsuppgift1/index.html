@@ -3,113 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="styles/main.css"/>
     <title>Inlämningsuppgift 1</title>
+    <link rel="stylesheet" href="styles/main.css"/>
+    
 </head>
 <body>
-     <header>
+    <header>
         <div class="logo-container">
-            <div class="logo-placeholder"><LOGO><img src="images/pngegg.png"></LOGO></div>
+            <div class="logo-placeholder"><img src="images/pngegg.png" alt="Logo"></div>
             <h1 id="mainTitle">Stockholm's Times</h1>
         </div>
-        <form id="searchArea" name="searchArea">
+        
+    </header>
+    <div class="topnav">
+        <a href="#">Hem</a> 
+        <a href="#">Senaste Nytt</a>
+        <a href="#">Arkiv</a>
+        <a href="#">Kontakta oss</a>
+           
+        <div class="search-container">
+            <form id="searchArea" name="searchArea">
             <input type="text" id="search" name="search" placeholder="Sök efter nyheter...">
             <button type="submit"><span class="search-icon"></span></button>
         </form>
-    </header>
-    <hr>
-       <nav>
-        <ul>
-            <li><a href="#">Hem</a></li>    
-            <li><a href="#">Senaste Nytt</a></li>
-            <li><a href="#">Arkiv</a></li>
-            <li><a href="#">Kontakta oss</a></li>
-        </ul>
-    </nav>
-    <hr>
+        </div>
+    </div>
     <div class="articles-container">
-        <div  class="articles-container">
-            <h2>Byggjätten: ”Trafikverkets anklagelser om Västlänken är grundlösa och beskyllningar falska”</h2>
-             <a target="_blank" href="#">
-                <img src="images/artikelimage1.jpg" class="artikelimage" alt="huvudArtikeln">
-            </a>
-             <article>
-                Trafikverkets anklagelser är ”grundlösa” och ”innehåller en lång rad osakliga och insinuanta påståenden” som antingen bygger på okunskap ”eller en medveten vilja” att dölja egna brister.
-
-                Det skriver det NCC-ledda konsortiet som bygger delar av Västlänken i sitt skriftliga svar om Trafikverkets kritik och miljardkrav.
-            </article>
+        <div class="article-card">
+            <div class="articalTitle">
+                 <h2>Byggjätten: ”Trafikverkets anklagelser om Västlänken är grundlösa och beskyllningar falska”</h2>
+            </div>
+            <div class="articalImage">
+                <a target="_blank" href="#">
+                    <img src="images/artikelimage1.jpg" class="artikelimage" alt="huvudArtikeln">
+                </a>
+                <article>
+                    Trafikverkets anklagelser är ”grundlösa” och ”innehåller en lång rad osakliga och insinuanta påståenden”...
+                </article>
+            </div>
             <div class="readMore">
-               <a href="#"><img src="images/redmoreIcon.jpg"  class="readMoreIcon" alt="huvudArtikeln"> Läs mer</a>
+                <a href="#"><img src="images/redmoreIcon.jpg" class="readMoreIcon" alt="huvudArtikeln"> Läs mer</a>
             </div>
         </div>
-        <div  class="articles-container">
-            <h2><span class="h2red">Emma Bouvin:</span> ”Liv går före lag” säger Netanyahu och sätter Gaza i brand”</h2>
-             <a target="_blank" href="#">
-                <img src="images/artikelimage2.jpg"  class="artikelimage" alt="huvudArtikeln">
+        <div class="article-card">
+            <div class="articalTitle">
+                <h2><span class="h2red">Emma Bouvin:</span> ”Liv går före lag” säger Netanyahu och sätter Gaza i brand</h2>
+            </div>
+            <div class="articalImage">
+                <a target="_blank" href="#">
+                <img src="images/artikelimage2.jpg" class="artikelimage" alt="huvudArtikeln">
             </a>
-             <article>
-                1 min 4 sek Videon är 1 min 4 sek lång.En oberoende utredning pekar på att Israel begår folkbord i Gaza, samtidigt som markinvasionen inleds.
+            <article>
+                1 min 4 sek Videon är 1 min 4 sek lång. En oberoende utredning pekar på att Israel begår folkbord i Gaza...
             </article>
+            </div>
+            
             <div class="readMore">
-                <a href="#"><img src="images/redmoreIcon.jpg"  class="readMoreIcon" alt="huvudArtikeln"> Läs mer</a>
+                <a href="#"><img src="images/redmoreIcon.jpg" class="readMoreIcon" alt="huvudArtikeln"> Läs mer</a>
             </div>
         </div>
-        <div  class="articles-container">
-            <h2>Checklista: Tio tips inför bostadsköpet</h2>
-             <a target="_blank" href="#">
-                <img src="images/artikelimage3.jpg"  class="artikelimage" alt="huvudArtikeln">
+        <div class="article-card">
+            <div class="articalTitle">
+                <h2>Checklista: Tio tips inför bostadsköpet</h2>
+            </div>
+            <div class="articalImage">
+                <a target="_blank" href="#">
+                <img src="images/artikelimage3.jpg" class="artikelimage" alt="huvudArtikeln">
             </a>
-             <article>
-               En hängmatta mellan två äppelträd, morgonkaffet på altanen eller favoritkaféet runt hörnet från portuppgången. 
-               Många drömmer om nästa bostadsköp, men innan man flyttar in finns det en hel del att tänka på 
-               och några fällor att undvika. Här är expertens bästa tips för en tryggare bostadsaffär.
+            <article>
+                En hängmatta mellan två äppelträd, morgonkaffet på altanen eller favoritkaféet runt hörnet...
             </article>
+            </div>
+            
             <div class="readMore">
-                <a href="#"><img src="images/redmoreIcon.jpg"  class="readMoreIcon" alt="huvudArtikeln"> Läs mer</a>
+                <a href="#"><img src="images/redmoreIcon.jpg" class="readMoreIcon" alt="huvudArtikeln"> Läs mer</a>
             </div>
         </div>
     </div>
-    <div>
-        
-        <div>
-            <h2>Tips redactionen</h2>
-            <form id="feedBack" name="feedBack">
-                <label for="name">Name</label>
-                <input id="name" name="name" type="text"></form><br>
+
+    <div class="secondSpace">
+        <div class="box"></div>
+        <div class="contactContainer">
+            <h2>Tipsa redaktionen</h2>
+            <form id="feedBack" name="feedBack" class="contact-form">
+                <label for="name">Namn</label>
+                <input id="name" name="name" type="text">
                 <label for="email">Email</label>
-                <input id="email" name="email" type="email"><br>
+                <input id="email" name="email" type="email">
                 <label for="telefon">Telefon</label>
-                <input id="telefon" name="telefon" type="tel"><br>
+                <input id="telefon" name="telefon" type="tel">
                 <label for="message">Meddelande</label>
-                <textarea id="message" name="message" type="text"></textarea><br>
-                <input type="checkbox" id="contactme" name="contactme">
-                <label for="contactme"> Kontakta mig</label><br>
+                <textarea id="message" name="message"></textarea>
+                <div>
+                    <input type="checkbox" id="contactme" name="contactme">
+                    <label for="contactme">Kontakta mig</label>
+                </div>
                 <button type="submit">Skicka</button>
             </form>
+            <a href="#" class="gdpr-link">GDPR och villkor</a>
         </div>
-        <div><a href="#">GDPR och villkor</a></div>
     </div>
-     
-    
+
     <hr>
     <footer>
-        <label>Företags namn</label><br>
+        <label>Stockholm's Time</label><br>
         <address>
-            <a href="email.email@domain.com">Email</a>.<br>
-            Address:<br>
-            Telefon
+            <a href="email.email@domain.com">Email</a><br>
+            Hamngatan 34<br>
+            +461234567
         </address>
         <nav>
-            <a href="/about">Om oss</a> |
-            <a href="SiteMap">Privacy Policy</a> |
+            <a href="#">Om oss</a> |
+            <a href="#">Privacy Policy</a> |
             <a href="#">Sociala Medier</a>
         </nav>
         <small>
             Copyright © 2025 NyhetsTidning. All Rights Reserved.
         </small>
     </footer>
-    <div id="gdprPopup" name="gdprPopup">
 
-    </div>
+    <div id="gdprPopup" name="gdprPopup"></div>
 </body>
 </html>
